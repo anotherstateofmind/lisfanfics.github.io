@@ -33,7 +33,7 @@
 		<h3 style="padding-left: 10%">Arktosphonos</h2>
 		<br/>
 		<h5>Summary:</h5>
-		<p>When Chloe says "eat me" to Max after they break into the principals office, Max does.</p>
+		<p>When Chloe says "eat me" to Max after they break into the principal's office, Max does.</p>
 		<br/>
 		<hr/>
 		<br/>
@@ -68,7 +68,7 @@
 
 		<p>"I've been trying to <span data-ita="togliermelo di dosso">shake him</span> for a while now. I've given hints and turned down his dates, but the boy is persistent," Max sighed, going back to resting against Chloe's leg.</p>
 
-		<p>Fingers trail up and down the taller girl's thigh, catching at a hole every now and then, grazing over exposed skin. Each brush of her fingers sends Chloe's hips gyrating upwards and it causes Max stomach to do the most marvelous of somersaults. It's intoxicating to know that even simple, almost innocent, touches can cause Chloe to lose her composure.</p>
+		<p>Fingers <span data-ita="tracciano, camminano">trail</span> up and down the taller girl's thigh, catching at a hole every now and then, <span data-ita="sfiorando, toccando">grazing</span> over exposed skin. Each brush of her fingers sends Chloe's hips gyrating upwards and it causes Max stomach to do the most marvelous of somersaults. It's intoxicating to know that even simple, almost innocent, touches can cause Chloe to lose her composure.</p>
 
 		<p>She can hear Chloe's sharp intakes of breath each time she drags her fingers over skin. Looking up, her heart stopped dead in her chest as she looks at Chloe, pupils dilated, lip clenched between her teeth as she held back her desire.</p>
 
@@ -150,10 +150,17 @@
 
 		<p>Everything as alright for the moment.</p>
 
-		<script>
-		  span.onclick = function() {
-		    alert('Click!');
-		  };
-		</script>
-	</body>
+	<script>
+
+      let spans = document.querySelectorAll('span[data-ita]');
+
+	  for (let span of spans) {
+	    span.onclick = function() {
+	    	console.log(span);
+		  alert(span.getAttribute("data-ita"));
+        };
+      }
+		  
+    </script>
+  </body>
 </html>
