@@ -24,7 +24,7 @@ span[title] {
 span[title]:hover {
   cursor: default;
   text-decoration: underline;
-  text-decoration-color: rgb(200, 100, 110);
+  text-decoration-color: rgb(200, 100, 110); /*indianred ?*/
 }
 
 hr { 
@@ -38,4 +38,9 @@ hr {
 
 .tooltip-inner {
   font-size: 20px;
+}
+
+#summary {
+  font-weight: bold;
+  color: chocolate;
 }
