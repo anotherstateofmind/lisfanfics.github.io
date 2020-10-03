@@ -10,6 +10,10 @@ body {
   font-size: 28px;
 }
 
+.chapters-desktop {
+  display: none;
+}
+
 .btn {
   font-size: 20px;
 }
@@ -32,6 +36,13 @@ body {
     font-family: sans-serif;
     color: rgb(225,225,225);
     font-size: 33px;
+  }
+
+  .chapters-mobile {
+    display: none;
+  }
+  .chapters-desktop {
+    display: block;
   }
 
   #heading h1, #heading h2 {
