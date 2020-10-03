@@ -10,7 +10,7 @@ body {
   font-size: 28px;
 }
 
-.chapters-desktop {
+.desktop {
   display: none;
 }
 
@@ -38,10 +38,10 @@ body {
     font-size: 33px;
   }
 
-  .chapters-mobile {
+  .mobile {
     display: none;
   }
-  .chapters-desktop {
+  .desktop {
     display: block;
   }
 
