@@ -6,6 +6,10 @@ body {
   color: rgb(225,225,225);
 }
 
+#summary p {
+  font-size: 20px;
+}
+
 @media screen and (min-width: 848px) {
   body {
     background-color: rgb(50,50,50);
@@ -13,6 +17,10 @@ body {
     font-family: sans-serif;
     font-size: 40px;
     color: rgb(225,225,225);
+  }
+
+  #summary p {
+    font-size: 27px;
   }
 }
 
@@ -38,9 +46,14 @@ hr {
 
 .tooltip-inner {
   font-size: 20px;
+  color: lemonchiffon;
 }
 
-#summary {
+#summary h3 {
   font-weight: bold;
   color: chocolate;
+}
+
+#back {
+  float: right;
 }
