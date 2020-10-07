@@ -62,7 +62,7 @@ body {
     font-size: 27px;
   }
 }
-
+/*
 span[title] {
   text-decoration: underline;
   text-decoration-color: rgb(40, 110, 40);
@@ -71,9 +71,14 @@ span[title] {
 span[title]:hover {
   cursor: default;
   text-decoration: underline;
-  text-decoration-color: rgb(200, 100, 110); /*indianred ?*/
+  text-decoration-color: rgb(200, 100, 110); indianred ?
 }
-
+*/
+span[title]:hover {
+  cursor: default;
+  text-decoration: underline;
+  text-decoration-color: rgb(40, 110, 40);
+}
 hr { 
   display: block; 
   height: 1px;
@@ -90,8 +95,10 @@ hr {
 }
 
 .tooltip-inner {
-  font-size: 20px;
+  /*font-size: 20px;*/
+  font-size: 22px;
   color: lemonchiffon;
+  max-width: 500px;
 }
 
 .card h3 {
