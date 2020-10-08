@@ -27,6 +27,13 @@ body {
   font-size: 20px;
 }
 
+.tooltip-inner {
+  /*font-size: 20px;*/
+  font-size: 22px;
+  color: lemonchiffon;
+  max-width: 400px;
+}
+
 @media screen and (min-width: 848px) {
   body {
     background-color: rgb(50,50,50);
@@ -61,6 +68,10 @@ body {
   .card p {
     font-size: 27px;
   }
+
+  .tooltip-inner {
+    max-width: 550px;
+  }
 }
 /*
 span[title] {
@@ -92,13 +103,6 @@ hr {
   margin: auto;
   margin-top: 5%;
   margin-bottom: 5%;
-}
-
-.tooltip-inner {
-  /*font-size: 20px;*/
-  font-size: 22px;
-  color: lemonchiffon;
-  max-width: 450px;
 }
 
 .card h3 {
